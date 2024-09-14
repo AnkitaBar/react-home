@@ -1,6 +1,7 @@
 // import "./App.css"
 // import BookList from "./BookList";
 import Fetch from "./useEffect/Fetch";
+import MulReturn from "./useEffect/MulReturn";
 import UseEffect from "./useEffect/UseEffect";
 import UseState from "./UseState";
 import Data from "./useState/Data";
@@ -17,7 +18,8 @@ function App() {
       {/* <Data/> */}
       {/* <From/> */}
       {/* <UseEffect/> */}
-      <Fetch/>
+      {/* <Fetch/> */}
+      <MulReturn/>
       
     </div>
   )
